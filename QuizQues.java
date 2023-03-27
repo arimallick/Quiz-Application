@@ -202,13 +202,15 @@ public class QuizQues extends JFrame implements ActionListener {
              else{
               user_answer[count][0] = allbutton.getSelection().getActionCommand();
              }
+            }
 
-             for(int i = 0; i<user_answer.length; i++){
+            for(int i = 0; i<user_answer.length; i++){
                 if (user_answer[i][0].equals(answer[i][0])){ 
                  score+=10;
                 }
              }
-            }
+            //}
+
             else{
                 ans();
             }

@@ -17,7 +17,7 @@ public class QuizScore extends JFrame{
         score1.setBounds(1100,400,700,50);
         score1.setFont(new Font("Tahoma", Font.PLAIN, 50));
         score1.setText(
-            "<html>" + "your score is" + scr + "<html>"
+            "<html>" + "Your score is: " + scr + "<html>"
         );
         add(score1);
         setVisible(true);
